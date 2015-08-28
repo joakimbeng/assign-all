@@ -1,6 +1,6 @@
 {
   "name": "assign-all",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Object.assign for all objects in an array",
   "main": "src/index.js",
   "scripts": {
