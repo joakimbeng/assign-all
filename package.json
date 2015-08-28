@@ -1,0 +1,31 @@
+{
+  "name": "assign-all",
+  "version": "0.1.0",
+  "description": "Object.assign for all objects in an array",
+  "main": "src/index.js",
+  "scripts": {
+    "lint": "xo",
+    "pretest": "npm run -s lint",
+    "test": "tape 'test/**/*.js'"
+  },
+  "keywords": [
+    "assign",
+    "extend",
+    "merge",
+    "objects"
+  ],
+  "author": "Joakim Carlstein <joakim@klei.se>",
+  "repository": "joakimbeng/assign-all",
+  "license": "MIT",
+  "devDependencies": {
+    "tape": "^4.2.0",
+    "xo": "^0.7.1"
+  },
+  "xo": {
+    "space": true
+  },
+  "dependencies": {
+    "arrify": "^1.0.0",
+    "object-assign": "^4.0.1"
+  }
+}
